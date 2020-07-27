@@ -1046,7 +1046,7 @@ textarea::-webkit-input-placeholder {
 ====================================================*/
 
 .start .animated {
-    visibility: visible;
+    visibility: hidden;
 }
 
 .start .visible {
@@ -1424,17 +1424,12 @@ textarea::-webkit-input-placeholder {
         width: 100%;
         margin-bottom: 10px;
         text-align: center;
-        display: block;
     }
 
     .copyright {
         display: none;
     }
 
-    #awd-site-footer {
-        display: none;
-        display: block;
-    }
 
 }
 
