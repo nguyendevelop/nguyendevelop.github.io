@@ -1046,7 +1046,7 @@ textarea::-webkit-input-placeholder {
 ====================================================*/
 
 .start .animated {
-    visibility: hidden;
+    visibility: show;
 }
 
 .start .visible {
