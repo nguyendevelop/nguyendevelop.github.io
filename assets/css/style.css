@@ -1431,7 +1431,7 @@ textarea::-webkit-input-placeholder {
     }
 
     #awd-site-footer {
-        display: none;
+        display: block;
     }
 
 }
