@@ -1424,6 +1424,7 @@ textarea::-webkit-input-placeholder {
         width: 100%;
         margin-bottom: 10px;
         text-align: center;
+        display: block;
     }
 
     .copyright {
@@ -1431,6 +1432,7 @@ textarea::-webkit-input-placeholder {
     }
 
     #awd-site-footer {
+        display: none;
         display: block;
     }
 
