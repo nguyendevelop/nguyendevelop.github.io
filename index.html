@@ -1,132 +1,572 @@
-
 <!DOCTYPE html>
+<html lang="en-US">
 <head>
-    <title>Group ITDB</title>
+  <!-- META DATA -->
+    <meta name="description" content="nguyễn develop">
+    <meta name="keywords" content="nguyễn develop">
+    <meta name="author" content="nguyendevelop">
 
-    <!-- META DATA -->
-    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="gitdb">
-    <meta name="keywords" content="gitdb">
-    <meta name="author" content="gitdb">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="icon" href="favicon.ico">
+  <title>Nguyễn Develop</title>
 
-    <!-- CSS Global Compulsory -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
-
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Open+Sans:wght@300;400;600;700&amp;display=swap"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Open+Sans:wght@300;400;600;700&amp;display=swap" media="print" onload="this.media='all'"/>
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Open+Sans:wght@300;400;600;700&amp;display=swap"/>
+  </noscript>
+  <link href="css/font-awesome/css/all.min.css?ver=1.0.1" rel="stylesheet">
+  <link href="css/bootstrap.min.css?ver=1.0.1" rel="stylesheet">
+  <link href="css/aos.css?ver=1.0.1" rel="stylesheet">
+  <link href="css/main.css?ver=1.0.1" rel="stylesheet">
+  <noscript>
+    <style type="text/css">
+    [data-aos] {
+      opacity: 1 !important;
+      transform: translate(0) scale(1) !important;
+    }
+  </style>
+</noscript>
 </head>
-<body>
-<div id="awd-site-wrap" class="bg bg-home">
 
-<div id="bg">
-    <div id="overlay">
-        <div class="awd-site-bg bg-home"></div>
-    </div>
-    <canvas id="awd-site-canvas"></canvas>
-</div>
-
-<!-- START SITE HEADER -->
-<header id="awd-site-header">
-    <div id="awd-site-logo" class="animated" data-animation="fadeInDown" data-animation-delay="500">
-        <h1><a href="index.html" target="_blank"><i class="icon-paint"></i><span>gitdb</span></a></h1>
-    </div>
-
-    <button class="menu-toggle animated" data-animation="fadeInDown" data-animation-delay="500" data-role="toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
-    <!-- END NAVIGATION -->
-</header>
-<!-- END SITE HEADER -->
-
-<!-- START MAIN -->
-<main id="awd-site-main">
-<!-- START SECTION -->
-<section id="awd-site-content">
-<div class="sections-block">
-<div class="slides">
-
-<div class="slides-wrap">
-<!-- HOME SECTION -->
-<div class="slide-item active" data-slide-id="home">
-    <!-- START CONTAINER -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <!-- START SLIDE CONTENT-->
-                <div class="slide-content">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 svm">
-                            <div class="section-info text-left">
-                                <div class="countdown">
-                                    <div id="clock" class="animated" data-animation="fadeIn" data-animation-delay="60"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-5 col-lg-offset-1 col-md-6 svm">
-                            <div class="section-info text-right">
-                                <!-- START TITLE -->
-                                <h2 class="section-title text-default animated" data-animation="fadeIn" data-animation-delay="50">Tìm nhóm tốt nhất cho dự án của bạn,<br> ở đây chúng tôi<br>giúp bạn điều đó !</h2>
-                                <!-- END TITLE -->
-                                <p class="animated" data-animation="fadeIn" data-animation-delay="55">Find the best team for your project,<br>
-								here we help you with that !</p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- END SLIDE CONTENT-->
-            </div>
+<!-- Start project -->
+<body id="top">
+  <header class="bg-light">
+    <div class="container text-center text-lg-left">
+      <div class="p-3 clearfix">
+        <h1 class="site-title mb-0">
+          <ul class="social">
+            <li id="en_click" class="button_lang current_lang">En</li>
+            <li id="vi_click" class="button_lang">Vi</li>
+            <li id="ja_click" class="button_lang">Ja</li>
+            <li id="ru_click" class="button_lang">Ru</li>
+          </ul>
+        </h1>
+        <div class="site-nav">
+          <nav role="navigation">
+            <ul class="nav justify-content-center">
+              <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/nguyendevelop" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/@nguyendevelop" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="https://www.github.com/nguyendevelop" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+              </li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </div>
-    <br><br><br><br>
-    <!-- END CONTAINER -->
-</div>
+  </header>
+
+  <div class="page-content">
+    <div id="content">
+     
+      <div class="cover bg-light">
+        <div class="container pt-2 pb-4 px-3">
+          <div class="row">
+            <div class="col-lg-6"><img class="img-fluid" src="images/superfolio_hello.svg" width="532" height="442" alt="hello"/></div>
+            <div class="col-lg-6">
+              <div class="mt-5">
+                <p id="en" class="lead text-uppercase mb-1">Hello!</p>
+                <p id="vi" class="lead text-uppercase mb-1">Xin chào bạn!</p>
+                <p id="ja" class="lead text-uppercase mb-1">こんにちは!</p>
+                <p id="ru" class="lead text-uppercase mb-1">ПРИВЕТ!</p>
+                <h1 id="en" class="intro-title marker" data-aos="fade-left" data-aos-delay="50">I’m Nguyen Develop</h1>
+                <h1 id="vi" class="intro-title marker" data-aos="fade-left" data-aos-delay="50">Tôi là Nguyễn Develop</h1>
+                <h1 id="ja" class="intro-title marker" data-aos="fade-left" data-aos-delay="50">私はグエン・デベロップです</h1>
+                <h1 id="ru" class="intro-title marker" data-aos="fade-left" data-aos-delay="50">Я Нгуен Девелоп</h1>
+                <p id="en" class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">BrSE and Developer</p>
+                <p id="vi"  class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">BrSE và Developer</p>
+                <p id="ja"  class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">BrSE と Developer</p>
+                <p id="ru"  class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">BrSE и Developer</p>
+                <div id="en" class="mt-3" data-aos="fade-up" data-aos-delay="200"><a class="btn btn-primary shadow-sm mt-1" href="#contact">Contact now</a></div>
+                <div id="vi" class="mt-3" data-aos="fade-up" data-aos-delay="200"><a class="btn btn-primary shadow-sm mt-1" href="#contact">Liên hệ ngay</a></div>
+                <div id="ja" class="mt-3" data-aos="fade-up" data-aos-delay="200"><a class="btn btn-primary shadow-sm mt-1" href="#contact">今コンタクトしてください</a></div>
+                <div id="ru" class="mt-3" data-aos="fade-up" data-aos-delay="200"><a class="btn btn-primary shadow-sm mt-1" href="#contact">связаться сейчас</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-section pt-4 px-3 px-lg-4">
+        <div class="container-narrow">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 id="en" class="h4 my-2">Whatsup bro!</h2>
+              <h2 id="vi" class="h4 my-2">Lời đầu tiên xin gửi đến mọi người lời chúc sức khoẻ và một lời chào trân trọng nhất!</h2>
+              <h2 id="ja" class="h4 my-2">どうした兄弟!</h2>
+              <h2 id="ru" class="h4 my-2">Как дела, братан!</h2>
+              <p id="en">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p id="vi">Lorem là văn bản mẫu không có nghĩa.</p>
+              <p id="ja">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p id="ru">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-md-5 offset-md-1"><img class="avatar img-fluid mt-2" src="images/avatar.jpg" width="400" height="400" alt="nguyendevelop"/></div>
+          </div>
+        </div>
+      </div>
+
+<!-- s1 -->
+      <div class="services-section px-3 px-lg-4 mt-5">
+        <div class="container-narrow">
+          <div class="text-center mb-5">
+            <h2 id="en" class="marker marker-center">My certificates</h2>
+            <h2 id="vi" class="marker marker-center">Các chứng nhận của tôi</h2>
+            <h2 id="ja" class="marker marker-center">私の証明書</h2>
+            <h2 id="ru" class="marker marker-center">Мои сертификаты</h2>
+          </div>
+          <div class="row py-3">
+            <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="100"><img class="mb-2" src="images/certificate.png" width="125" height="164" alt="web design"/>
+              <div id="en" class="h5">Web Design</div>
+              <div id="vi" class="h5">Web Design</div>
+              <div id="ja" class="h5">ウェブデザイン</div>
+              <div id="ru" class="h5">Веб-дизайн</div>
+            </div>
+            <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="200"><img class="mb-2" src="images/certificate.png" width="125" height="164" alt="web design"/>
+              <div id="en" class="h5">Graphic Design</div>
+              <div id="vi" class="h5">Graphic Design</div>
+              <div id="ja" class="h5">グラフィックデザイン</div>
+              <div id="ru" class="h5">Графический дизайн</div>
+            </div>
+            <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="300"><img class="mb-2" src="images/certificate.png" width="125" height="164" alt="web design"/>
+              <div id="en" class="h5">UI/UX</div>
+              <div id="vi" class="h5">UI/UX</div>
+              <div id="ja" class="h5">UI/UX</div>
+              <div id="ru" class="h5">UI/UX</div>
+            </div>
+            <div class="col-md-3 text-center" data-aos="fade-up" data-aos-delay="400"><img class="mb-2" src="images/certificate.png" width="125" height="164" alt="web design"/>
+              <div id="en" class="h5">App Development</div>
+              <div id="vi" class="h5">App Development</div>
+              <div id="ja" class="h5">アプリ開発</div>
+              <div id="ru" class="h5">Разработка приложений</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- s2 -->
+      <div class="portolio-section px-3 px-lg-4 mt-5">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 id="en" class="marker marker-center">Photos</h2>
+            <h2 id="vi" class="marker marker-center">Ảnh</h2>
+            <h2 id="ja" class="marker marker-center">写真</h2>
+            <h2 id="ru" class="marker marker-center">Фотографии</h2>
+          </div>
+          <div class="grid pb-3" data-aos="zoom-in" data-aos-delay="100">
+
+            <div class="grid-sizer"></div>
+            <div class="grid-item"><a href="#">
+              <figure class="portfolio-item"><img src="images/portfolio/folio1.jpg"/>
+                <figcaption> 
+                  <h4 id="en">Lorem</h4>
+                  <h4 id="vi">Lorem</h4>
+                  <h4 id="ja">Lorem</h4>
+                  <h4 id="ru">Lorem</h4>
+                  <p id="en">Lorem</p>
+                  <p id="vi">Lorem</p>
+                  <p id="ja">Lorem</p>
+                  <p id="ru">Lorem</p>
+                </figcaption>
+              </figure></a></div>
+              <div class="grid-item"><a href="#">
+                <figure class="portfolio-item"><img src="images/portfolio/folio2.jpg"/>
+                  <figcaption> 
+                    <h4 id="en">Lorem</h4>
+                    <h4 id="vi">Lorem</h4>
+                    <h4 id="ja">Lorem</h4>
+                    <h4 id="ru">Lorem</h4>
+                    <p id="en">Lorem</p>
+                    <p id="vi">Lorem</p>
+                    <p id="ja">Lorem</p>
+                    <p id="ru">Lorem</p>
+                  </figcaption>
+                </figure></a></div>
+                <div class="grid-item"><a href="#">
+                  <figure class="portfolio-item"><img src="images/portfolio/folio3.jpg"/>
+                    <figcaption> 
+                      <h4 id="en">Lorem</h4>
+                      <h4 id="vi">Lorem</h4>
+                      <h4 id="ja">Lorem</h4>
+                      <h4 id="ru">Lorem</h4>
+                      <p id="en">Lorem</p>
+                      <p id="vi">Lorem</p>
+                      <p id="ja">Lorem</p>
+                      <p id="ru">Lorem</p>
+                    </figcaption>
+                  </figure></a></div>
+                  <div class="grid-item"><a href="#">
+                    <figure class="portfolio-item"><img src="images/portfolio/folio4.jpg"/>
+                      <figcaption>
+                        <h4 id="en">Lorem</h4>
+                        <h4 id="vi">Lorem</h4>
+                        <h4 id="ja">Lorem</h4>
+                        <h4 id="ru">Lorem</h4>
+                        <p id="en">Lorem</p>
+                        <p id="vi">Lorem</p>
+                        <p id="ja">Lorem</p>
+                        <p id="ru">Lorem</p>
+                      </figcaption>
+                    </figure></a></div>
+                    <div class="grid-item"><a href="#">
+                      <figure class="portfolio-item"><img src="images/portfolio/folio5.jpg"/>
+                        <figcaption>
+                          <h4 id="en">Lorem</h4>
+                          <h4 id="vi">Lorem</h4>
+                          <h4 id="ja">Lorem</h4>
+                          <h4 id="ru">Lorem</h4>
+                          <p id="en">Lorem</p>
+                          <p id="vi">Lorem</p>
+                          <p id="ja">Lorem</p>
+                          <p id="ru">Lorem</p>
+                        </figcaption>
+                      </figure></a></div>
+                      <div class="grid-item"><a href="#">
+                        <figure class="portfolio-item"><img src="images/portfolio/folio6.jpg"/>
+                          <figcaption>
+                            <h4 id="en">Lorem</h4>
+                            <h4 id="vi">Lorem</h4>
+                            <h4 id="ja">Lorem</h4>
+                            <h4 id="ru">Lorem</h4>
+                            <p id="en">Lorem</p>
+                            <p id="vi">Lorem</p>
+                            <p id="ja">Lorem</p>
+                            <p id="ru">Lorem</p>
+                          </figcaption>
+                        </figure></a></div>
+                        <div class="grid-item"><a href="#">
+                          <figure class="portfolio-item"><img src="images/portfolio/folio7.jpg"/>
+                            <figcaption>
+                              <h4 id="en">Lorem</h4>
+                              <h4 id="vi">Lorem</h4>
+                              <h4 id="ja">Lorem</h4>
+                              <h4 id="ru">Lorem</h4>
+                              <p id="en">Lorem</p>
+                              <p id="vi">Lorem</p>
+                              <p id="ja">Lorem</p>
+                              <p id="ru">Lorem</p>
+                            </figcaption>
+                          </figure></a></div>
+                          <div class="grid-item"><a href="#">
+                            <figure class="portfolio-item"><img src="images/portfolio/folio8.jpg"/>
+                              <figcaption>
+                                <h4 id="en">Lorem</h4>
+                                <h4 id="vi">Lorem</h4>
+                                <h4 id="ja">Lorem</h4>
+                                <h4 id="ru">Lorem</h4>
+                                <p id="en">Lorem</p>
+                                <p id="vi">Lorem</p>
+                                <p id="ja">Lorem</p>
+                                <p id="ru">Lorem</p>
+                              </figcaption>
+                            </figure></a></div>
+
+                          </div>
+                        </div>
+                      </div>
+
+<!-- s3 -->
+                      <div class="testimonial-section px-3 px-lg-4 mt-5">
+                        <div class="container-narrow">
+                          <div class="text-center mb-5">
+                            <h2 id="en" class="marker marker-center">Colleagues talk about me</h2>
+                            <h2 id="vi" class="marker marker-center">Đồng nghiệp nói về tôi</h2>
+                            <h2 id="ja" class="marker marker-center">同僚が私について話します</h2>
+                            <h2 id="ru" class="marker marker-center">Коллеги говорят обо мне</h2>
+                          </div>
+                          <div class="row"> 
+                            <div class="col-md-6 mb-5" data-aos="fade-right" data-aos-delay="100">
+                              <div class="d-flex ms-md-3"><span><i class="fas fa-2x fa-quote-left"></i></span>
+                                <span id="en" class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                                <span id="vi" class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                                <span id="ja" class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                                <span id="ru" class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                              </div>
+                              <div class="d-flex justify-content-end align-items-end">
+                                <div class="text-end me-2">
+                                  <div class="fw-bolder">Aiyana</div>
+                                  <div id="en" class="text-small">CEO / Web Design Company</div>
+                                  <div id="vi" class="text-small">CEO / Web Design Company</div>
+                                  <div id="ja" class="text-small">CEO / Web Design Company</div>
+                                  <div id="ru" class="text-small">Разработка приложений</div>
+                                </div><img class="me-md-3 rounded" src="images/client1.jpg" width="96" height="96" alt="client 1"/>
+                              </div>
+                            </div>
+                            <div class="col-md-6 mb-5" data-aos="fade-left" data-aos-delay="300">
+                              <div class="d-flex ms-md-3"><span><i class="fas fa-2x fa-quote-left"></i></span>
+                                <span id="en" class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                                <span id="vi" class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                                <span id="ja" class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                                <span id="ru" class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                              </div>
+                              <div class="d-flex justify-content-end align-items-end">
+                                <div class="text-end me-2">
+                                  <div class="fw-bolder">Alexander</div>
+                                  <div id="en" class="text-small">App Development</div>
+                                  <div id="vi" class="text-small">App Development</div>
+                                  <div id="ja" class="text-small">App Development</div>
+                                  <div id="ru" class="text-small">Лидер</div>
+                                </div><img class="me-md-3 rounded" src="images/client2.jpg" width="96" height="96" alt="client 1"/>
+                              </div>
+                            </div>
+                            <div class="col-md-6 mb-5" data-aos="fade-right" data-aos-delay="100">
+                              <div class="d-flex ms-md-3"><span><i class="fas fa-2x fa-quote-left"></i></span>
+                                <span id="en" class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                                <span id="vi" class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                                <span id="ja" class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                                <span id="ru" class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                              </div>
+                              <div class="d-flex justify-content-end align-items-end">
+                                <div class="text-end me-2">
+                                  <div class="fw-bolder">Ariya</div>
+                                  <div id="en" class="text-small">Leader</div>
+                                  <div id="vi" class="text-small">Leader</div>
+                                  <div id="ja" class="text-small">Leader</div>
+                                  <div id="ru" class="text-small">Веб-дизайнер</div>
+                                </div><img class="me-md-3 rounded" src="images/client3.jpg" width="96" height="96" alt="client 1"/>
+                              </div>
+                            </div>
+                            <div class="col-md-6 mb-5" data-aos="fade-left" data-aos-delay="300">
+                              <div class="d-flex ms-md-3"><span><i class="fas fa-2x fa-quote-left"></i></span>
+                                <span id="en" class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                                <span id="vi" class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                                <span id="ja" class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                                <span id="ru" class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                              </div>
+                              <div class="d-flex justify-content-end align-items-end">
+                                <div class="text-end me-2">
+                                  <div class="fw-bolder">Braiden</div>
+                                  <div id="en" class="text-small">Web Designer</div>
+                                  <div id="vi" class="text-small">Web Designer</div>
+                                  <div id="ja" class="text-small">Web Designer</div>
+                                  <div id="ru" class="text-small">Веб-дизайнер</div>
+                                </div><img class="me-md-3 rounded" src="images/client4.jpg" width="96" height="96" alt="client 1"/>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
 
 
+<!-- s4 -->
+                      <div class="contant-section px-3 px-lg-4 pb-4 mt-5 mb-5" id="contact">
+                        <div class="container-narrow">
+                          <div class="text-center mb-5">
+                            <h2 id="en" class="marker marker-center">Contact Me</h2>
+                            <h2 id="vi" class="marker marker-center">Liên hệ tôi</h2>
+                            <h2 id="ja" class="marker marker-center">私に連絡して</h2>
+                            <h2 id="ru" class="marker marker-center">Свяжитесь со мной</h2>
+                          </div>
 
-</div>
-</div>
-</div>
-</section>
-<!-- END SECTION -->
-</main>
-<!-- END MAIN -->
+                          <div class="row">
+
+                            <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                              <div class="bg-light my-2 p-3 pt-2">
+                                <form class="gform" action="https://script.google.com/macros/s/AKfycbxzHK1nJLTfGpc5brqIWnOxEMP-R7TBrFaS_mOCtPWS75IfWcQ/exec"
+                                method="POST">
+                                <div class="form-group my-2">
+                                  <label id="en" for="name" class="form-label fw-bolder">Name</label>
+                                  <label id="vi" for="name" class="form-label fw-bolder">Tên</label>
+                                  <label id="ja" for="name" class="form-label fw-bolder">名前</label>
+                                  <label id="ru" for="name" class="form-label fw-bolder">Имя</label>
+                                  <input class="form-control" type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group my-2">
+                                  <label id="en" for="email" class="form-label fw-bolder">Email</label>
+                                  <label id="vi" for="email" class="form-label fw-bolder">Email</label>
+                                  <label id="ja" for="email" class="form-label fw-bolder">Email</label>
+                                  <label id="ru" for="email" class="form-label fw-bolder">Email</label>
+                                  <input class="form-control" type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group my-2">
+                                  <label id="en" for="message" class="form-label fw-bolder">Message</label>
+                                  <label id="vi" for="message" class="form-label fw-bolder">Lời nhắn</label>
+                                  <label id="ja" for="message" class="form-label fw-bolder">メッセージ</label>
+                                  <label id="ru" for="message" class="form-label fw-bolder">Сообщение</label>
+                                  <textarea class="form-control" style="resize: none;" id="message" name="message" rows="4" required></textarea>
+                                </div>
+                                <div class="form-group my-2">
+                                  <label id="en" for="color" class="form-label fw-bolder">Choose your favorite color</label>
+                                  <label id="vi" for="color" class="form-label fw-bolder">Chọn màu yêu thích của bạn</label>
+                                  <label id="ja" for="color" class="form-label fw-bolder">お好きな色をお選びください</label>
+                                  <label id="ru" for="color" class="form-label fw-bolder">Выбери свой любимый цвет</label>
+                                  <input class="form-control" type="color" id="color" name="color" required></input>
+                                </div>
+                                <a id="en">To avoid spam, please do not choose color! Otherwise, we assume the user is a spam bot.</a>
+                                <a id="vi">Để tránh thư rác, vui lòng không chọn màu! Nếu không, chúng tôi cho rằng người dùng là một bot spam.</a>
+                                <a id="ja">スパムを避けるために、色を選択しないでください！それ以外の場合、ユーザーはスパムボットであると想定します。</a>
+                                <a id="ru">Во избежание спама, пожалуйста, не выбирайте цвет! В противном случае мы предполагаем, что пользователь является спам-ботом.</a>
+                                <button id="en" class="btn btn-primary mt-2" type="submit">Send</button>
+                                <button id="vi" class="btn btn-primary mt-2" type="submit">Gửi</button>
+                                <button id="ja" class="btn btn-primary mt-2" type="submit">送信</button>
+                                <button id="ru" class="btn btn-primary mt-2" type="submit">послать</button>
+
+                                <!-- Customise the Thankyou Message People See when they submit the form: -->
+                                <div class="thankyou_message" style="display:none;">
+                                  <br><h5 id="en"><em>Thanks</em> for contacting me!
+                                      I will contact you as soon as possible!</h5>
+                                      <h5 id="vi"><em>Cảm ơn nhiều</em> vì đã liên lạc với tôi!
+                                      Tôi sẽ liên lạc với bạn trong thời gian sớm nhất!</h5>
+                                      <h5 id="ja"><em>Cảm ơn nhiều</em> vì đã liên lạc với tôi!
+                                      Tôi sẽ liên lạc với bạn trong thời gian sớm nhất!</h5>
+                                      <h5 id="ru"><em>Cảm ơn nhiều</em> vì đã liên lạc với tôi!
+                                      Tôi sẽ liên lạc với bạn trong thời gian sớm nhất!</h5>
+                                </div>
+                              </form>
+                              <!-- Submit the Form to Google Using "AJAX" -->
+                              <script data-cfasync="false"  src="scripts/form-submission-handler.js"></script>
+                              <!-- END -->
+                            </div>
+                          </div>
+
+                          <div class="col-md-6" data-aos="fade-left" data-aos-delay="300">
+                            <div class="mt-3">
+                              <div id="en" class="h5">Let’s talk how I can help you!</div>
+                              <div id="vi" class="h5">Hãy nói cách tôi có thể giúp bạn!</div>
+                              <div id="ja" class="h5">私がどのようにあなたを助けることができるか話しましょう！</div>
+                              <div id="ru" class="h5">Давай поговорим, чем я могу тебе помочь!</div>
+                              <p id="en">If you like my work and want to avail my services then drop me a message using the contact form. </p>
+                              <p id="vi">Nếu bạn thích công việc của tôi và muốn tận dụng các dịch vụ của tôi, hãy gửi tin nhắn cho tôi bằng cách sử dụng biểu mẫu liên hệ. </p>
+                              <p id="ja">私の仕事が好きで、私のサービスを利用したい場合は、お問い合わせフォームを使用して私にメッセージをドロップしてください。</p>
+                              <p id="ru">Если вам нравится моя работа и вы хотите воспользоваться моими услугами, напишите мне, используя контактную форму.</p>
+                              <p id="en">Or get in touch using my email, skype or my contact number.</p>
+                              <p id="vi">Hoặc liên hệ bằng email, skype hoặc số liên lạc của tôi.</p>
+                              <p id="ja">または、メール、Skype、または連絡先番号を使用して連絡してください。</p>
+                              <p id="ru">Или свяжитесь с нами по электронной почте, скайпу или по моему контактному номеру.</p>
+                              <p id="en">See you!</p>
+                              <p id="vi">Hẹn gặp lại!</p>
+                              <p id="ja">またね！</p>
+                              <p id="ru">Увидимся!</p>
+                            </div>
+                            <div class="mt-5">
+                              <div class="row"> 
+                                <div class="col-sm-2">
+                                  <div class="pb-1">Email</div>
+                                </div>
+                                <div class="col-sm-10">
+                                  <div class="pb-1 fw-bolder">
+                                    <a id="en" href="mailto:jp.nguyendevelop@gmail.com">send mail</a>
+                                    <a id="vi" href="mailto:jp.nguyendevelop@gmail.com">gửi mail</a>
+                                    <a id="ja" href="mailto:jp.nguyendevelop@gmail.com">メールを送る</a>
+                                    <a id="ru" href="mailto:jp.nguyendevelop@gmail.com">Отправить почту</a>
+                                  </div>
+                                </div>
+                                <div class="col-sm-2">
+                                  <div class="pb-1">Skype</div>
+                                </div>
+                                <div class="col-sm-10">
+                                  <div class="pb-1 fw-bolder">
+                                    <a id="en" href="https://join.skype.com/invite/U2Dr9kusFmIm" target="_blank">send invitation</a>
+                                    <a id="vi" href="https://join.skype.com/invite/U2Dr9kusFmIm" target="_blank">gửi lời mời</a>
+                                    <a id="ja" href="https://join.skype.com/invite/U2Dr9kusFmIm" target="_blank">招待状を送る</a>
+                                    <a id="ru" href="https://join.skype.com/invite/U2Dr9kusFmIm" target="_blank">Отправить приглашение</a>
+                                  </div>
+                                </div>
+                                <div class="col-sm-2">
+                                  <div class="pb-1">Facebook</div>
+                                </div>
+                                <div class="col-sm-10">
+                                  <div class="pb-1 fw-bolder">
+                                    <a id="en" href="https://facebook.com/nguyendevelop/" target="_blank">send invitation</a>
+                                    <a id="vi" href="https://facebook.com/nguyendevelop/" target="_blank">gửi lời mời</a>
+                                    <a id="ja" href="https://facebook.com/nguyendevelop/" target="_blank">招待状を送る</a>
+                                    <a id="ru" href="https://facebook.com/nguyendevelop/" target="_blank">Отправить приглашение</a>
+                                  </div>
+                                </div>
+                                <div class="col-sm-2">
+                                  <div id="en" class="pb-1">Staus</div>
+                                  <div id="vi" class="pb-1">Trạng thái</div>
+                                  <div id="ja" class="pb-1">スタウス</div>
+                                  <div id="ru" class="pb-1">スタウス</div>
+                                </div>
+                                <div class="col-sm-10">
+                                  <div class="pb-1 fw-bolder"><i class="fa fa-toggle-on" style="color:#00ff00; font-size:20px;"></i></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  </div>
 
 
-<footer id="awd-site-footer">
-    <!-- START COPYRIGHT -->
-    <div class="copyright animated" data-animation="fadeInUp" data-animation-delay="500">
-        <p>Nguyễn Develop © 2020 Group ITDB. Coming soon</p>
-    </div>
-    <!-- END COPYRIGHT -->
+                  <footer class="pt-4 pb-4 text-center bg-light">
+                    <div class="container">
+                      <div class="my-3">
+                        <div id="en" class="h5">Nguyen Develop said</div>
+                        <div id="vi" class="h5">Nguyễn Develop nói</div>
+                        <div id="ja" class="h5">Nguyễn Develop said</div>
+                        <div id="ru" class="h5">Nguyen Develop сказал</div>
+                        <p id="en">"Experience is my hobby"</p>
+                        <p id="vi">"Trải nghiệm là sở thích của tôi"</p>
+                        <p id="ja">「経験は私の趣味です」</p>
+                        <p id="ru">«Опыт - мое хобби»</p>
+                        <div class="footer-nav">
+                          <nav role="navigation">
+                            <ul class="nav justify-content-center">
+                              <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/nguyendevelop" title="Facebook"><i class="fab fa-facebook fa-spin fa-3x animation-duration"></i><span class="menu-title sr-only">Facebook</span></a>
+                              </li>
+                              <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/@nguyendevelop" title="Instagram"><i class="fab fa-instagram fa-spin-pulse fa-3x"></i><span class="menu-title sr-only">Instagram</span></a>
+                              </li>
+                              <li class="nav-item"><a class="nav-link" href="https://www.github.com/nguyendevelop" title="Github"><i class="fab fa-github fa-spin fa-3x"></i><span class="menu-title sr-only">Github</span></a>
+                            </ul>
+                          </nav>
+                        </div>
+                      </div>
+                      <div class="text-small text-secondary">
+                        <div id="en" class="mb-1">&copy; <a src="aboutme.html" title="About me"> Nguyen Develop</a>. All ownership.</div>
+                        <div id="vi" class="mb-1">&copy; <a src="aboutme.html" title="About me"> Nguyễn Develop</a>. Mọi quyền sở hữu.</div>
+                        <div id="ja" class="mb-1">&copy; <a src="aboutme.html" title="About me"> Nguyen Develop</a>。 すべての所有権。</div>
+                        <div id="ru" class="mb-1">&copy; <a src="aboutme.html" title="About me"> Nguyen Develop</a>. Все права собственности.</div>
+                      </div>
+                    </div>
+                  </footer>
 
-    <!-- START SOCIAL ICONS -->
-    <nav class="social-icons animated sections-block" data-animation="fadeInUp" data-animation-delay="500">
-        <ul>Follow me
-            <li><a href="https://www.facebook.com/nguyendevelop"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://www.youtube.com/channel/UCXMCpgC2Ryfro5RXWc1LNUw"><i class="fa fa-youtube"></i></a></li>
-            <li><a href="https://www.google.com/search?ei=MMv6XrvAK4G7wAP3k5bYCw&q=nguy%E1%BB%85n+develop&oq=nguy%E1%BB%85n+develop&gs_lcp=CgZwc3ktYWIQAzICCCY6CAgAELEDELADOgcIABCwAxBDOgQIABBDOgUIABCxAzoCCAA6BQgAEIMBOgYIABAKEEM6BwgAEIMBEEM6BggAEBYQHlCNQ1iSWGD0XmgEcAB4AIABqwGIAbUOkgEEMTMuNZgBAKABAaoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwi7mMD35KjqAhWBHXAKHfeJBbsQ4dUDCAw&uact=5"><i class="fa fa-google"></i></a></li>
-        </ul>
-    </nav>
-    <!-- END SOCIAL ICONS -->
-</footer>
 
-</div>
+                  <!--
 
-<!-- JS -->
-<script type="text/javascript" src="assets/js/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="assets/js/vendor.js"></script>
-<script type="text/javascript" src="assets/js/options.js"></script>
-<script type="text/javascript" src="assets/js/main.js"></script>
+                   !         !
+                  ! !       ! !
+                 ! . !     ! . !
+                   ^^^^^^^^^^^
+                 ^             ^
+               ^  (0)       (0)  ^
+              ^        ""         ^
+            ^    ***************    ^
+           ^   *                 *   ^
+         ^    *   /\   /\   /\    *    ^
+        ^    *                     *    ^
+       ^    *   /\   /\   /\   /\   *    ^
+      ^    *                         *    ^
+      ^   *                           *   ^
+      ^   *       I SEE YOU HERE      *   ^
+      ^   *                           *   ^
+        ^ *                           * ^
+         ^ *                         * ^
+          ^ *                       * ^
+           ^ *         ) (         * ^
+               ^^^^^^^^^ ^^^^^^^^^
 
-</body>
-</html>
+                  -->
+
+
+                  <!-- Script here -->
+                  <script src="scripts/jquery.min.js?ver=1.0.1"></script>
+                  <script src="scripts/imagesloaded.pkgd.min.js?ver=1.0.1"></script>
+                  <script src="scripts/masonry.pkgd.min.js?ver=1.0.1"></script>
+                  <script src="scripts/bootstrap.bundle.min.js?ver=1.0.1"></script>
+                  <script src="scripts/aos.js?ver=1.0.1"></script>
+                  <script src="scripts/main.js?ver=1.0.1"></script>
+                  <script src="scripts/animejs/animation.js"></script>
+                  <script src="scripts/language.js"></script>
+                </body>
+                </html>

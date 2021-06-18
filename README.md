@@ -1,170 +1,32 @@
-<p align="center">
-  <a href="https://rahuldkjain.github.io/gh-profile-readme-generator">
-    <img alt="GitHub Profile Readme Generator" src="./src/images/mdg.png" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  GitHub Profile README Generator
-</h1>
+<h1 align = "center"> Xin chào 👋, tôi là Nguyễn Develop </h1>
+<h3 align = "center"> Tôi đến từ Việt Nam </h3>
 
-<p align="center">
-<a href="https://github.com/rahuldkjain/github-profile-readme-generator/blob/master/LICENSE" target="blank">
-<img src="https://img.shields.io/github/license/rahuldkjain/github-profile-readme-generator?style=flat-square" alt="github-profile-readme-generator licence" />
-</a>
-<a href="https://github.com/rahuldkjain/github-profile-readme-generator/fork" target="blank">
-<img src="https://img.shields.io/github/forks/rahuldkjain/github-profile-readme-generator?style=flat-square" alt="github-profile-readme-generator forks"/>
-</a>
-<a href="https://github.com/rahuldkjain/github-profile-readme-generator/stargazers" target="blank">
-<img src="https://img.shields.io/github/stars/rahuldkjain/github-profile-readme-generator?style=flat-square" alt="github-profile-readme-generator stars"/>
-</a>
-<a href="https://github.com/rahuldkjain/github-profile-readme-generator/issues" target="blank">
-<img src="https://img.shields.io/github/issues/rahuldkjain/github-profile-readme-generator?style=flat-square" alt="github-profile-readme-generator issues"/>
-</a>
-<a href="https://github.com/rahuldkjain/github-profile-readme-generator/pulls" target="blank">
-<img src="https://img.shields.io/github/issues-pr/rahuldkjain/github-profile-readme-generator?style=flat-square" alt="github-profile-readme-generator pull-requests"/>
-</a>
-<a href="https://discord.gg/HHMs7Eg" target="blank">
-<img src="https://img.shields.io/discord/735303195105951764?label=Join%20Community&logo=discord&style=flat-square" alt="join discord community of github profile readme generator"/>
-</a>
-</p>
+<p align = "left"> <img src = "https: //komarev.com/ghpvc/?username=nguyendevelop&label=Profile%20views&color=0e75b6&style=flat "alt =" nguyendevelop "/> </p>
 
-<p align="center"><img src="./src/images/github-profile-readme-generator.gif" alt="github-profile-readme-generator gif" /></p>
+<p align =" left "> <a href =" https: // github .com / ryo-ma / github-profile-cup "> <img src =" https://github-profile-trophy.vercel.app/?username=nguyendevelop "alt =" nguyendevelop "/> </a> < / p>
 
-<p align="center">
-    <a href="https://rahuldkjain.github.io/gh-profile-readme-generator" target="blank">View Demo</a>
-    ·
-    <a href="https://github.com/rahuldkjain/github-profile-readme-generator/issues/new/choose">Report Bug</a>
-    ·
-    <a href="https://github.com/rahuldkjain/github-profile-readme-generator/issues/new/choose">Request Feature</a>
-</p>
+- 🔭 Tôi hiện đang làm việc trên ** ABC **
 
-<p align="center">
-<i>Loved the tool? Please consider <a href="https://paypal.me/rahuldkjain/10">donating</a>  💸 to help it improve!</i>
-</p>
+- 🌱 Tôi hiện đang học ** ABC **
 
-<p align="center">
-<a href="https://www.paypal.me/rahuldkjain"><img src="https://img.shields.io/badge/support-PayPal-blue?logo=PayPal&style=flat-square&label=Donate" alt="sponsor github profile readme generator"/>
-</a>
-<a href='https://ko-fi.com/A0A81XXSX' target='_blank'><img height='23' width="100" src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' alt='Buy Coffee for rahuldkjain' />
-</a>
-<a href="https://www.buymeacoffee.com/rahuldkjain" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="23" width="100" style="border-radius:1px" />
-</p>
+- 👯 Tôi đang tìm cách cộng tác trên ** ABC **
 
-#### Tired of editing GitHub Profile README with new features?
+- 🤝 Tôi đang tìm kiếm sự trợ giúp với ** ABC **
 
-This tool provides an easy way to create a GitHub profile readme with the latest add-ons such as `visitors count`, `github stats`, etc.
+- 📝 Tôi thường xuyên viết bài trên [nguyendevelop.github.io] (nguyendevelop.github.io)
+
+- 💬 Hỏi tôi về ** ABC **
+
+- 📫 Cách liên hệ với tôi **jp.nguyendevelop@gmail.com**
+
+- ⚡ Thông tin thú vị ** smile **
 
 
-## 🚀 Demo 
-<a href="https://rahuldkjain.github.io/gh-profile-readme-generator" target="blank">
-<img src="https://img.shields.io/website?url=https%3A%2F%2Frahuldkjain.github.io%2Fgh-profile-readme-generator&logo=github&style=flat-square" />
-</a>
+<h3 align = "left"> Ngôn ngữ và Công cụ: </h3>
+<p align = "left"> <a href="https://developer.android.com" target="_blank"> <img src = "https://raw.githubusercontent.com/devicons/devicon/master/ biểu tượng / android / android-original-wordmark.svg "alt =" android "width =" 40 "height =" 40 "/> </a> <a href =" https://angular.io "target =" _ blank "> <img src =" https://angular.io/assets/images/logos/angular/angular.svg "alt =" angle "width =" 40 "height =" 40 "/> </a> <a href = "https://www.arduino.cc/" target = "_ blank"> <img src = "https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt = "arduino" width = "40"height = "40" /> </a> <a href="https://getbootstrap.com" target="_blank"> <img src = "https://raw.githubusercontent.com/devicons/devicon/master /icons/bootstrap/bootstrap-plain-wordmark.svg "alt =" bootstrap "width =" 40 "height =" 40 "/> </a> <a href =" https://www.cprogramming.com/ " target = "_ blank"> <img src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt = "c" width = "40" height = " 40 "/> </a> <a href="https://codeigniter.com" target="_blank"> <img src =" https://cdn.worldvectorlogo.com/logos/codeigniter.svg "alt = "codeigniter" width = "40" height = "40" /> </a> <a href="https://www.w3schools.com/cpp/" target="_blank"> <img src = " https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg "alt =" cplusplus "width =" 40 "height =" 40 "/> </a> <a href = "https://www.w3schools.com/css/" target = "_ blank"> <img src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original- wordmark.svg "alt =" css3 "width =" 40 "height =" 40 "/> </a> <a href="https://firebase.google.com/" target="_blank"> <img src = "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt = "firebase" width = "40" height = "40" /> </a> <a href = " https://git-scm.com/ "target =" _ blank "> <img src =" https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg "alt =" git "width =" 40 "height =" 40 "/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src =" https: // raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg "alt =" html5 "width =" 40 "height =" 40 "/> </a> <a href =" https://www.java.com "target =" _ blank "><img src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt = "java" width = "40" height = "40" /> </ a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src = "https://raw.githubusercontent.com/devicons/ devicon / master / icon / javascript / javascript-original.svg "alt =" javascript "width =" 40 "height =" 40 "/> </a> <a href =" https://kotlinlang.org "target = "_blank"> <img src = "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt = "kotlin" width = "40" height = "40" /> </a><a href="https://laravel.com/" target="_blank"> <img src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark .svg "alt =" laravel "width =" 40 "height =" 40 "/> </a> <a href="https://www.linux.org/" target="_blank"> <img src = "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt = "linux" width = "40" height = "40" /> </a> <a href = "https://www.microsoft.com/en-us/sql-server" target = "_ blank"> <img src = "https://www.svgrepo.com/show/303229/microsoft-sql- server-logo.svg "alt =" mssql "width = "40" height = "40" /> </a> <a href="https://www.mysql.com/" target="_blank"> <img src = "https: //raw.githubusercontent .com / devicons / devicon / master / icon / mysql / mysql-original-wordmark.svg "alt =" mysql "width =" 40 "height =" 40 "/> </a> <a href =" https: / /nodejs.org "target =" _ blank "> <img src =" https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg "alt =" nodejs "width = "40" height = "40" /> </a> <a href="https://www.photoshop.com/en" target="_blank"> <img src = "https: //raw.githubusercontent .com / devicons / devicon / master / icon / photoshop / photoshop-line.svg "alt =" photoshop "width =" 40 "height =" 40 "/> </a> <a href =" https: // www. php.net "target =" _ blank "> <img src =" https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg "alt =" php "width =" 40 "height =" 40 "/> </a> <a href="https://www.ruby-lang.org/en/" target="_blank"> <img src =" https: //raw.githubusercontent .com / devicons / devicon / master / icon / ruby ​​/ ruby-original.svg "alt =" ruby ​​"width =" 40 "height =" 40 "/> </a> <a href =" https: // union .com / "target =" _ blank "><img src = "https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt = "unisex" width = "40" height = "40" /> </a> </p>
 
-Try the tool: [GitHub Profile README Generator](https://rahuldkjain.github.io/gh-profile-readme-generator)
+<p> <img align = "left" src = "https://github-readme-stats.vercel.app/api/top-langs?username=nguyendevelop&show_icons=true&locale=vi&layout=compact" alt = "nguyendevelop" /> </p>
 
-## 🧐 Features
+<p> & nbsp; <img align = "center" src = "https://github-readme-stats.vercel.app/api?username=nguyendevelop&show_icons=true&locale=en" alt = "nguyendevelop" /> </p>
 
-Just fill in the details such as `Name`, `Tagline`, `Dev Platforms Username`, `Current Work`, `Portfolio`, `Blog`, etc. with a minimal UI.
-
-- **Uniform Dev Icons**
-
-- **Uniform Social Icons**
-
-- **Visitors Counter Badge**
-
-- **GitHub Profile Stats Card**
-
-- **GitHub Top Skills**
-
-- **GitHub Streak Stats**
-
-- **Dynamic Dev(.)to Blogs** (GitHub Action)
-
-- **Dynamic Medium Blogs** (GitHub Action)
-
-- **Dynamic Personal Blogs from RSS Feed** (GitHub Action)
-
-- **Wakatime Stats** [contribute](https://github.com/rahuldkjain/github-profile-readme-generator/issues/115)
-
-- **Buy Me A Coffee button**
-
-Click on `Generate README` to get your README in `markdown`.
-You can preview the README too.
-
-## 🛠️ Installation Steps
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/rahuldkjain/github-profile-readme-generator.git
-```
-
-2. Change the working directory
-
-```bash
-cd github-profile-readme-generator
-```
-
-3. Install dependencies
-
-```bash
-npm install
-```
-
-4. Run the app
-
-```bash
-npm start
-```
-
-🌟 You are all set!
-
-## 🍰 Contributing
-
-Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/rahuldkjain/github-profile-readme-generator/compare).
-
-Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
-
-## 💻 Built with
-- [Gatsby](https://www.gatsbyjs.com/)
-- [Tailwind CSS](https://tailwindcss.com/): for styling
-- [GSAP](https://greensock.com/gsap/): for small SVG Animations
-
-
-## 🙇 Special Thanks
-
-- [Anurag Hazra](https://github.com/anuraghazra) for amazing [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
-- [Anton Komarev](https://github.com/antonkomarev) for super cool [github-profile-views-counter](https://github.com/antonkomarev/github-profile-views-counter)
-- [Gautam Krishna R](https://github.com/gautamkrishnar) for the awesome [blog post workflow](https://github.com/gautamkrishnar/blog-post-workflow)
-- [Jonah Lawrence](https://github.com/DenverCoder1) for the incredible [github-readme-streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats)
-- [Julien Monty](https://github.com/konpa) for super useful [devicon](https://github.com/konpa/devicon)
-
-## 🙇 Sponsors
-
-- [Scott C Wilson](https://github.com/scottcwilson) donated the first-ever grant to this tool. A big thanks to him.
-- [Max Schmitt](https://github.com/mxschmitt) loved the tool and showed support with his donation. Thanks a lot.
-- [Aadit Kamat](https://github.com/aaditkamat) find the tool useful and showed support with his donation. A big thanks to him.
-- [Jean-Michel Fayard](https://github.com/jmfayard) used the generator to create his GitHub Profile README and he loved it. Thanks to him for showing support to the tool with the donation.
-
-
-## 🙏 Support
-
-<p align="left">
-<a href="https://www.paypal.me/rahuldkjain/10"><img src="https://ionicabizau.github.io/badges/paypal.svg" alt="sponsor github profile readme generator"/>
-</a>
-<a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Frahuldkjain.github.io%2Fgithub-profile-readme-generator">
-<img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Frahuldkjain.github.io%2Fgithub-profile-readme-generator" alt="tweet github profile readme generator"/>
-</a>
-</p>
-
-<p align="left">
-  <a href='https://ko-fi.com/A0A81XXSX' target='_blank'><img height='23' width="100" src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' alt='Buy Coffee for rahuldkjain' />
-  </a>
-  <a href="https://www.buymeacoffee.com/rahuldkjain" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="23" width="100" style="border-radius:2px" />
-</p>
-
-
-<hr>
-<p align="center">
-Developed with ❤️ in India 🇮🇳 
-</p>
+<p> <img align = "center" src = "https://github-readme-streak-stats.herokuapp.com/?user=nguyendevelop&" alt = "nguyendevelop" /> </p>
