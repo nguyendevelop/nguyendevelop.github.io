@@ -174,9 +174,10 @@ sup {
 
 a {
   color: #F6E05E;
-  text-decoration: underline; }
+  text-decoration: blink; }
   a:hover {
-    color: #c5b34b; }
+    color: #c5b34b;
+    text-decoration: underline; }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
