@@ -195,7 +195,11 @@ ul li {
   display: inline-block;
   bottom: -20px;
   opacity: 0;
-  font-size: 20px;
+  font-size: 50px;
+}
+@media (max-width: 48em) {
+  .slogo {
+  font-size: 14px; }
 }
 .slogo.active {
   bottom: 0;
